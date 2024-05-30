@@ -9,6 +9,7 @@ item by item page
 ### Prerequisites
   * Pay pal account
   * Web server with PHP enabled
+  * PHP DOM and XML extention enabled
 
 ### Make your cart stupid drop down using pay pal tools
   * Go to the menu which sais 'Pay Links and buttons', mine is under Pay & Get Paid.
