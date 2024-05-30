@@ -66,17 +66,17 @@ item by item page
 </form>
 
 ```
-    * Save the generated 'BUTTON' in a file, like: ppal_form.html
-    * If you open ppal_form.html in a browser will show as stupid as:
-
+  * Save the generated 'BUTTON' in a file, like: ppal_form.html
+  * If you open ppal_form.html in a browser will show as stupid as:
+ 
     
 ![image](https://github.com/circinusX1/paypal_php_cart/assets/69641625/83347771-e814-4d31-a705-84c3705a9cdd)
 
 #### Let's make it more appealing
 
-    * Add your items images in the above generated HTML, Open the ppal_form.html and edit as ...
-    * Add next line in each option description the link to the item you sale image <img...
-    * Save
+  * Add your items images in the above generated HTML, Open the ppal_form.html and edit as ...
+  * Add next line in each option description the link to the item you sale image <img...
+  * Save
 
 ````
         <select name="os0" id="selector">
@@ -96,9 +96,9 @@ item by item page
         </select>
 
 ````   
-    * Download the my_store.php from the git
-    * Goto the top and change items descriptions $arr[0]...$arr[number of your items]
-    * Change line '$dom->load("./ppform.html");' to load your form.html
+  * Download the my_store.php from the git
+  * Goto the top and change items descriptions $arr[0]...$arr[number of your items]
+  * Change line '$dom->load("./ppform.html");' to load your form.html
     
 #### The look    
     The directory structure  of what we did looks like:
@@ -114,7 +114,7 @@ item by item page
 
 ```
 
-    * And will look like
+  * And the store will look like
 
 ![image](https://github.com/circinusX1/paypal_php_cart/assets/69641625/c16dd339-e158-48c6-9f98-82f089e5658f)
 
