@@ -1,6 +1,8 @@
 # paypal_php_cart
 
-Convert the dropdown generated paypal button 'add to car't with mulitple items to
+### PAYPAL CART, NO SQL, NO IPN, re-use paypal generated code for 'Add to Cart'
+
+Convert the dropdown generated paypal BUTTON to a STORE by parsing PAYPAL generated code behind the scene
 item by item page 
 
 ## Prepararion
