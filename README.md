@@ -11,7 +11,7 @@ item by item page
   * Web server with PHP enabled
   * PHP DOM and XML extention enabled
 
-### Make your cart stupid drop down using pay pal tools
+### Make your cart 'stupid drop down' [Add to Cart] using pay pal web tools
   * Go to the menu which sais 'Pay Links and buttons', mine is under Pay & Get Paid.
   * Goto 'Create button' , then select 'Add to cart'
   * Use large buttons otherwise you have to change the php $x=rand values to fit in your button area
