@@ -30,18 +30,14 @@ item by item page
 
 
 
-   * Fill below Tax and things and set return URL
-   * Fill below Tax and things and set return URL
-
-
-
+   * Fill below the page tax and things you would need
    * Click at the bottom SAVE and Create Button
-   * Will generate this HTML
+   * It will generate this HTML
 
 ```
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<form action="https://removed/for/publishing" method="post" target="_blank">
   <input type="hidden" name="cmd" value="_s-xclick" />
-  <input type="hidden" name="hosted_button_id" value="XXXXXXXXXXXXX" />
+  <input type="hidden" name="hosted_button_id" value="REMOVEDFORPUBLISHING" />
   <table>
     <tr>
       <td>
@@ -66,7 +62,7 @@ item by item page
     </tr>
   </table>
   <input type="hidden" name="currency_code" value="USD" />
-  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
+  <input type="image" src="https://removed_for_publishing.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Add to Cart" />
 </form>
 
 ```
